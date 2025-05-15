@@ -32,7 +32,7 @@ Then rename those in __1-100__ _.jpg_ format.
 ## How the Code works
 
 1. Import the libraries and load the dataset
-First, we are going to import all the modules that we are going to need for training our model. The Keras library already contains some datasets and MNIST is one of them. So we can easily import the dataset and start working with it. The mnist.load_data() method returns us the training data, its labels and also the testing data and its labels.
+* First, we are going to import all the modules that we are going to need for training our model. The Keras library already contains some datasets and MNIST is one of them. So we can easily import the dataset and start working with it. The mnist.load_data() method returns us the training data, its labels and also the testing data and its labels.
 ```python
 import keras
 from keras.datasets import mnist
